@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie>
+    <id>1</id>
+    <title>Besharam</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Akshay Kumar</title>
+      <votes>2</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Deepika Padukone</title>
+      <votes>5</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Anushkha Sharma</title>
+      <votes>77</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Arshad Warsi</title>
+      <votes>12</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>2</id>
+    <title>Chennai Express</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Anushkha Sharma</title>
+      <votes>20</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Ranveer Singh</title>
+      <votes>30</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Amrita Rao</title>
+      <votes>60</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Ali Zafar</title>
+      <votes>4</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>3</id>
+    <title>Bhaag Milkha Bhaag</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Akshay Kumar</title>
+      <votes>35</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Farah Akhtar</title>
+      <votes>36</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Kajol</title>
+      <votes>68</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Gaur Khan</title>
+      <votes>76</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>4</id>
+    <title>Dhoom 3</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>John Abraham</title>
+      <votes>33</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Bipasha Basu</title>
+      <votes>65</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Anupam Kher</title>
+      <votes>87</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Alok Nath</title>
+      <votes>23</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>5</id>
+    <title>Raam Leela</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Akshay Kumar</title>
+      <votes>65</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Diya Mirza</title>
+      <votes>23</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Sunny Leone</title>
+      <votes>0</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Ronit Roy</title>
+      <votes>76</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>7</id>
+    <title>Krrish 3</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Preeti Zinta</title>
+      <votes>54</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Amir Khan</title>
+      <votes>32</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Kapil Sharma</title>
+      <votes>67</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>K.K.</title>
+      <votes>34</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>8</id>
+    <title>R... Rajkumar</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Akshay Kumar</title>
+      <votes>67</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Ranveer Singh</title>
+      <votes>35</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Anushkha Sharma</title>
+      <votes>6</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Lucky Ali</title>
+      <votes>76</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>9</id>
+    <title>Hasee Toh Phasee</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Ayushman Khurana</title>
+      <votes>36</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Aishwarya Rai Bachan</title>
+      <votes>48</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Anushkha Sharma</title>
+      <votes>76</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Madhuri Dixit</title>
+      <votes>23</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>10</id>
+    <title>Yeh Jawaani Hai Deewani</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Sonu Nigam</title>
+      <votes>26</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Karishma Kapoor</title>
+      <votes>76</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Nana Patekar</title>
+      <votes>35</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Jacky Shroff</title>
+      <votes>26</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>11</id>
+    <title>Aashiqui 2</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Shahrukh Khan</title>
+      <votes>57</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Kareena Kapoor</title>
+      <votes>56</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Kiran Kher</title>
+      <votes>44</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Adnan Sami</title>
+      <votes>63</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+  <movie>
+    <id>12</id>
+    <title>Jai Ho</title>
+    <poll>Who should have acted?</poll>
+    <option1>
+      <title>Akshay Kumar</title>
+      <votes>84</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option1>
+    <option2>
+      <title>Ranveer Singh</title>
+      <votes>68</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option2>
+    <option3>
+      <title>Anushkha Sharma</title>
+      <votes>55</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option3>
+    <option4>
+      <title>Lucky Ali</title>
+      <votes>65</votes>
+      <image>http://www.rttnews.com/ArticleImages/USTopStories/2012/March/ScarlettJohansson-030212.jpg</image>
+    </option4>
+  </movie>
+</movies>

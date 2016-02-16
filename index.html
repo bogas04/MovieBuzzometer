@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Buzzometer</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/c3.css">
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id="header">
+      <div id="client-logo" class="alignCenter alignLeft"><img src="img/logo.gif"></div>
+      <div id="header-title" class="alignCenter">Movie Buzzometer</div>
+      <div id="follow-area" class="alignCenter alignRight"><a href="https://twitter.com/ZoomTV" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @ZoomTV</a>
+      </div>
+    </div>
+    <div id="sidebar" class="alignCenter">
+      <div id="scroll">
+        <div id="scroll-bottom" onclick="scrollUp()"></div> 
+        <div id="scroll-top" onclick="scrollDown()"></div>       
+      </div>
+      <div id="movie-cards"> 
+      </div>
+    </div>
+    <div id="main-wrapper" class="alignCenter">
+      <div id="banner">
+        <div id="banner-title"></div>
+        <img id='banner-image'>
+        <div id="banner-description"></div>
+      </div>
+      <div id="total-tweets" class="analyticsItem">
+        <img src="http://justcreative.com/wp-content/uploads/2012/11/twitter-bird.gif">
+        <span></span>
+        <h3>Total Tweets</h3>
+      </div>
+      <div id="critics-sentiment" class="analyticsItem">
+        <span></span>
+        <h3>Critics Sentiment</h3>
+      </div>
+      <div id="fans-sentiment" class="analyticsItem">
+        <span></span>
+        <h3>Fan Sentiment</h3>
+      </div>
+      <button id="details" onclick="loadDetails()">Click for detailed view</button>
+    </div>
+    <div id="details-wrapper" class="alignCenter">
+      <button id="details" class="alignLeft" onclick="loadDetails()">Back</button>
+      <div class="alignRight"><button onclick="setChartData(getFilmDetails(new String($('.selectedMovie img').attr('src')))['title'],'sentiment');" id="graph-button">Tweets</button></div>
+      <div id="chart"></div>
+      <div id="buzzing"><div class="detailedHeader">What's Buzzing?</div><div></div></div>
+      <div id="poll">
+        <div class="detailedHeader">Poll of the week</div>
+        <div id="poll-content">
+          <div id="poll-question"></div>
+          <div onclick="setVote(1)" class="pollOption"></div>
+          <div onclick="setVote(2)" class="pollOption"></div>
+          <div onclick="setVote(3)" class="pollOption"></div>
+          <div onclick="setVote(4)" class="pollOption"></div>
+        </div>
+      </div>
+    </div>
+    <div id="right-sidebar">       
+      <button id="getPosTweets" onclick="getTweets(getFilmDetails(new String($('.selectedMovie img').attr('src')))['title'],'pos');">+ve</button>
+      <button id="getTopTweets" onclick="getTweets(getFilmDetails(new String($('.selectedMovie img').attr('src')))['title'],'top');">Top Tweets</button>
+      <button id="getNegTweets" onclick="getTweets(getFilmDetails(new String($('.selectedMovie img').attr('src')))['title'],'neg');">-ve</button>
+      <div id="top-tweets">
+      </div>
+    </div>
+  </body>
+  <!-- Scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="js/jquery.knob.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+  <script src="js/website.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</html>

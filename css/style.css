@@ -1,0 +1,99 @@
+/* MAIN DIVS */
+body { margin:0px;font-family: 'News Cycle', sans-serif;}
+button { margin:10px; border:none;background:#D10057;color:white;padding:5px;cursor:pointer;border-bottom:3px solid grey;}
+button:active {background:#D10057; border-top:3px solid #D10057; border-bottom:none;}
+button:hover {background:#D10057; border-bottom-color:black;}
+#header {background:#D10057;height:60px;color:white;position: fixed;left:0;right:0;top:0;}
+#main-wrapper,#details-wrapper {margin: 60px auto;width: 54%;padding: 0px 1%;overflow-y: auto;overflow-x:hidden;max-height: 91%;position: fixed;left: 22%;}
+#details-wrapper {display:none}
+#sidebar {border-right: 1px solid lightgrey;left:0px;width: 22%;top: 60px;bottom: 0px;position: fixed;overflow:hidden;background:url('../img/reel.gif') repeat scroll 100% 100% / 100% transparent;}
+#right-sidebar {text-align:center;font-size:small;background:#F2F2F2;border-left: 1px solid lightgrey;right:0px;width: 22%;top: 60px;bottom: 0px;position: fixed;}
+#details{display:block;margin:10px auto;}
+
+/* HEADER */
+#header div{display: inline-block;}
+#header-title{font-size: 215%;width: 55%;}
+#client-logo {width: 22%;padding-top: 6px;}
+#follow-area{width:22%;padding-top: 13.5px;}
+
+/* SIDEBAR */
+#movie-cards{overflow:hidden;margin:0px 16%;height:100%;}
+#movie-cards:hover{overflow-y:scroll;margin-right: 12%;}
+.movieCard {padding:10px;margin:10px;}
+.movieCard img{ width: 90%;}
+.movieCard.selectedMovie .arrow{display:block;}
+.movieCard .arrow{display:none;}
+.arrow {position: absolute;border-left: 10px solid rgb(209, 0, 87);border-bottom: 10px solid transparent;border-top: 10px solid transparent;right: -10px;top: 42%;}
+.selectedMovie {background:#D10057;position:relative;}
+.rightArrow {display:none;height: 0px;width: 0px;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 30px solid rgb(238, 66, 66);position: absolute;margin: 1px 2px;}
+#scroll{position: fixed;top: 40%;z-index:1;}
+#scroll div{position: relative;bottom: 0px;margin: 0px auto;cursor: pointer;border: 1px solid #000;width: 50px;height: 66px;}
+#scroll-bottom {background: url('../img/arrow-up.gif') repeat scroll 0% 0% white;}
+#scroll-top {background: url('../img/arrow-down.gif') repeat scroll 0% 0% white;}
+/* MAIN WRAPPER */
+#banner {width: 100%;height: 60%;margin: 10px 0px 20px;}
+#banner-image{max-width:100%;max-height:250px;transition:all 0.75s;-moz-transition:all 0.75s;-webkit-transition:all 0.75s;-o-transition:all 0.75s;-ms-transition:all 0.75s;z-index:99;}
+
+/* DETAILED WRAPPER */
+#buzzing, #poll {width:47%;padding-bottom:10px;min-height: 263px;float:left;background:rgb(242,242,242);margin:5px 7.5px;color:#D10057;word-wrap:break-word;}
+.detailedHeader{padding:4px;color:white;background:#D10057;}
+#chart{max-width:90%;height: 250px;margin: 41px auto 0px;padding: 0px 1px 9px 0px;}
+g[title="Chart context menu"],text[text-anchor="end"] {display:none;}
+.buzzingWord{display: inline-block;margin: 5px 10px;font-weight:bold;}
+#poll-question{text-align: left;color: black;margin: 10px 20px;}
+#poll-content{font-size:94%;}
+.pollOption{cursor:pointer;float:left;position: relative;margin: 12px 55px 0px 25px;}
+.pollOption div{text-align: right;position: relative;font-size: 24px;}
+.pollOption span{word-wrap: break-word;display: inline-block;width: 86px;left: 58px;position: relative;text-align: left;}
+.pollOption img{position: absolute;width: 48px;left: 0px;}
+
+/* ANALYTICS */
+#total-tweets img{width:40%;}
+#total-tweets span img{width:auto;}
+.analyticsItem{display:block;display: inline-block;width: 31%;}
+.analyticsItem h3 {font-family: verdana;text-rendering: optimizespeed;font-weight: 300;line-height: 1;padding: 0px 10px;text-align: center;} 
+.analyticsItem span {color: black;font-size: 243%;display: block;text-align: center;}
+
+/* TOP TWEETS */
+#top-tweets{overflow-y: auto;height: 90%;overflow-x: hidden;}
+.topTweet {position:relative;border-radius:3px;color: black;background: white;margin: 10px;text-align: left;padding: 10px;background:#ffffff;border:1px solid lightgrey;background:url('http://justcreative.com/wp-content/uploads/2012/11/twitter-bird.gif') no-repeat scroll 102% 2% / 22% auto white;}
+.topTweet a {text-decoration:none;color:rgb(58, 111, 221);}
+.twHeader{height:60px;}
+.tweeterImage{width: 50px;margin: 5px;}
+.tweeterName {position: absolute;left: 75px;top: 17px;word-wrap: break-word;}
+.tweetContent {margin-bottom: 10px;word-wrap: break-word;}
+.tweeterName a{display:block;}
+.tweetTime{margin-top: 10px;}
+.webIntents{position: absolute;right: 0px;margin: -3px 10px 0px 0px;}
+.tweetTime a{color:grey !important;}
+
+/* BASIC CLASSES */
+.alignLeft {float:left;}
+.alignRight {float:right;}
+.alignCenter {text-align:center;}
+.boxRotate { animation : box-rotate 0.5s; -webkit-animation : box-rotate 0.5s; }
+.boxRotateOp { animation : box-rotate-op 0.5s; -webkit-animation : box-rotate-op 0.5s; }
+.movieCard{cursor:pointer;}
+@keyframes box-rotate { from {transform:rotateY(0deg);-moz-transform:rotateY(0deg);-webkit-transform:rotateY(0deg);-ms-transform:rotateY(0deg);-o-transform:rotateY(0deg); } to {transform:rotateY(90deg);-moz-transform:rotateY(90deg);-webkit-transform:rotateY(90deg);-ms-transform:rotateY(90deg);-o-transform:rotateY(90deg); }}
+@-webkit-keyframes box-rotate { from {transform:rotateY(0deg);-moz-transform:rotateY(0deg);-webkit-transform:rotateY(0deg);-ms-transform:rotateY(0deg);-o-transform:rotateY(0deg); } to {transform:rotateY(90deg);-moz-transform:rotateY(90deg);-webkit-transform:rotateY(90deg);-ms-transform:rotateY(90deg);-o-transform:rotateY(90deg); }}
+@keyframes box-rotate-op { from {transform:rotateY(-90deg);-moz-transform:rotateY(-90deg);-webkit-transform:rotateY(-90deg);-ms-transform:rotateY(-90deg);-o-transform:rotateY(-90deg); } to {transform:rotateY(0deg);-moz-transform:rotateY(0deg);-webkit-transform:rotateY(0deg);-ms-transform:rotateY(0deg);-o-transform:rotateY(0deg); }}
+@-webkit-keyframes box-rotate-op { from {transform:rotateY(-90deg);-moz-transform:rotateY(-90deg);-webkit-transform:rotateY(-90deg);-ms-transform:rotateY(-90deg);-o-transform:rotateY(-90deg); } to {transform:rotateY(0deg);-moz-transform:rotateY(0deg);-webkit-transform:rotateY(0deg);-ms-transform:rotateY(0deg);-o-transform:rotateY(0deg); }}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+} 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: lightgrey; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: grey; 
+}
